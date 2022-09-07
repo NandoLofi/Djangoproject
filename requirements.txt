@@ -16,6 +16,7 @@ Flask-Migrate==3.1.0
 Flask-SQLAlchemy==2.5.1
 idna==3.3
 importlib-metadata==4.12.0
+gunicorn==20.1.0
 itsdangerous==2.1.2
 Jinja2==3.1.2
 jmespath==1.0.1
