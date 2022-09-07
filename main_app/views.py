@@ -25,7 +25,7 @@ def home(request):
     return render(request, 'home.html', context={'my_list': my_list})
 
 def category(request):
-    api_key = NewsApiClient(api_key= "YmXoQkFn1GISqaWBoaKLpmB2fX3dCb")
+    api_key = NewsApiClient(api_key= "f630b32438fe426088d3e9631d48efa1")
     head_Lines = api_key.get_sources(category='sports')
     categories = head_Lines['sources']
     desc = []
